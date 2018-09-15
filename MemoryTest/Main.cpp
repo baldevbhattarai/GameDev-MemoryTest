@@ -20,7 +20,7 @@ void main()
 	*y = rand() % 101;
 	*z = rand() % 101;
 
-
+	//commit test
 	cout << *x << " " << *y << " " << *z << endl;
 
 	reorder(x, y, z);
