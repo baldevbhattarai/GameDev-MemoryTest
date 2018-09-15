@@ -20,6 +20,7 @@ void main()
 	*y = rand() % 101;
 	*z = rand() % 101;
 
+
 	cout << *x << " " << *y << " " << *z << endl;
 
 	reorder(x, y, z);
